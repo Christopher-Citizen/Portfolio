@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(26, 26, 26);
+  font-family:Arial;
+  font-weight: 500;
+  color:#000;
+  margin: 30px 30px 30px 30px
+}
+
+
+h1 {
+  color: rgb(255, 247, 0);
+  font: Arial;
+  font-weight: 700;
+  font-size:20px;
+}
+
+
+p {
+  color: rgb(255, 255, 255);
+  font-size:20px;
+  line-height:40px;
+}
