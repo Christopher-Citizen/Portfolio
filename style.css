@@ -8,23 +8,44 @@ body {
 
 
 h1 {
-  color: rgb(26, 26, 26);
-  text-shadow:1px 1px 5px #000000, 1px 1px 5px #ffffff19;
+  color: rgba(255, 255, 255, 0.46);
+  text-shadow:1px 1px 5px #ffffff, 1px 1px 5px #ffffff19;
   font: Arial;
+  font-style:italic;
   font-weight: 700;
-  font-size:20px;
-  line-height:27px;
+  font-size:30px;
+  line-height:35px;
+
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.46);
+  text-shadow:1px 1px 5px #ffffff, 1px 1px 5px #ffffff19;
+  font: Arial;
+  font-style:italic;
+  font-weight: 700;
+  font-size:30px;
+  line-height:35px;
+
+}
+h2:hover {
+
+/*  margin-left: -5px; */
+  text-shadow:1px 1px 5px #ffffff, 0px 0px 5px #ffffff, -10px 0px 5px #001aff;
+/*  transform: rotate(180deg) scaleX(-1); */
+
 }
 
 
 main {
-  margin-top:10vw;
+  margin-top:15vw;
+
 }
 
 
 p {
-  color: rgb(255, 255, 255);
-  text-shadow:1px 1px 3px #fefefe, -10px 0px 5px #001aff;
+  color: rgba(255, 255, 255, 0.488);
+  text-shadow:1px 1px 3px #fefefe, -10px 0px 5px #001affb0;
   font-size:20px;
   /* font-style: italic; */
   line-height:15px;
@@ -37,6 +58,8 @@ p:hover {
 /*  transform: rotate(180deg) scaleX(-1); */
 
 }
+
+
 
 is {
   color: rgba(190, 24, 24, 0.33);
