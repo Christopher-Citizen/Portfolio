@@ -1,22 +1,48 @@
 body {
   background-color: rgb(26, 26, 26);
-  font-family:Arial;
+  font-family:sans-serif;
   font-weight: 500;
   color:#000;
-  margin: 30px 30px 30px 30px
+  margin: 30px 30px 30px 50px
 }
 
 
 h1 {
-  color: rgb(255, 247, 0);
+  color: rgb(26, 26, 26);
+  text-shadow:1px 1px 5px #000000, 1px 1px 5px #ffffff19;
   font: Arial;
   font-weight: 700;
   font-size:20px;
+  line-height:27px;
+}
+
+
+main {
+  margin-top:10vw;
 }
 
 
 p {
   color: rgb(255, 255, 255);
+  text-shadow:1px 1px 3px #fefefe, -10px 0px 5px #001aff;
   font-size:20px;
-  line-height:40px;
+  font-style: italic;
+  line-height:15px;
+}
+
+p:hover {
+  margin-left: 10px;
+}
+
+is {
+  color: rgba(190, 24, 24, 0.33);
+  text-shadow:1px 1px 3px #ff00007c, 0px 0px 3px #ff0000;
+  font-style: normal;
+}
+
+date {
+  color: rgba(190, 24, 24, 0.33);
+  text-shadow:1px 1px 3px #ff00007c, 0px 0px 3px #ff0000;
+  font-style: normal;
+  font-size:smaller;
 }
