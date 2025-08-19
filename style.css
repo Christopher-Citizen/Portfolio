@@ -31,7 +31,10 @@ p {
 }
 
 p:hover {
-  margin-left: 10px;
+/* margin-left: -5px; --> */
+/*  text-shadow:1px 1px 5px #ffffff, 0px 0px 5px #ffffff; */
+  transform: rotate(180deg) scaleX(-1);
+
 }
 
 is {
