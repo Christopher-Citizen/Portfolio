@@ -68,6 +68,12 @@ p:hover {
 
 }
 
+pp {
+  color: rgba(255, 255, 255, 0.488);
+  font-size:20px;
+  padding-right: 75vw;
+  line-height:15px;
+}
 
 
 is {
