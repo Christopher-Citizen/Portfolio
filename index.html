@@ -7,6 +7,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christopher T.</title>
+
+ <style> /* Hover Images */
+        .hidden-image {
+    display: none;
+    position: fixed; 
+    top: 50%; /* Position the images at the center vertically */
+    left: 90%; /* Position the images at the center horizontally */
+    transform: translate(-50%, -60%); /* Center the images */
+    max-width: 450px;
+    z-index: 999;
+        }
+        .hover-text:hover + .hidden-image {
+            display: block; 
+        }
+ </style>
+
 </head>
 
 
@@ -16,14 +32,16 @@
     <h1>Image and Sound Works</h1>
     <br>
     <h2>? →</h2>
- 
   </header>
 
 
   <main>
-    <p>
+   
+    <p class="hover-text">
       Te pae o Tararua  <detail>(m-i) in-progress </detail></p> 
-    <p>
+       <img src="images/wtl_01.jpg"  class="hidden-image">
+      <p>
+
        <detail>(m-i) 2025</detail> Sea State</p>   
     <p>
        <detail>(i) 2024</detail> Terakina Camera-less</p> 
@@ -44,9 +62,8 @@
     <p>
     <detail>(m-i) 2021 </detail> At Night We Dance</p>
   
-
   </main>
-
-
 </body>
+
+
 </html>
