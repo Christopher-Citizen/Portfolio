@@ -26,14 +26,15 @@ p {
   color: rgb(255, 255, 255);
   text-shadow:1px 1px 3px #fefefe, -10px 0px 5px #001aff;
   font-size:20px;
-  font-style: italic;
+  /* font-style: italic; */
   line-height:15px;
 }
 
 p:hover {
-/* margin-left: -5px; --> */
-/*  text-shadow:1px 1px 5px #ffffff, 0px 0px 5px #ffffff; */
-  transform: rotate(180deg) scaleX(-1);
+
+/*  margin-left: -5px; */
+  text-shadow:1px 1px 5px #ffffff, 0px 0px 5px #ffffff, -10px 0px 5px #001aff;
+/*  transform: rotate(180deg) scaleX(-1); */
 
 }
 
@@ -43,7 +44,7 @@ is {
   font-style: normal;
 }
 
-date {
+detail {
   color: rgba(190, 24, 24, 0.33);
   text-shadow:1px 1px 3px #ff00007c, 0px 0px 3px #ff0000;
   font-style: normal;
