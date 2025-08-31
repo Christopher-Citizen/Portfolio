@@ -1,8 +1,9 @@
 body {
-  background-color: rgb(18, 18, 18);
+  background-color: rgb(16, 16, 16);
+ 
   font-family:sans-serif;
   font-weight: 500;
-  color:#000;
+  color:#00000045;
   margin: 30px 50px 30px 50px
 }
 
@@ -41,14 +42,14 @@ a {
 main {
   margin-top:10vw;
   margin-bottom:10vw;
-  margin-right:60vw
+  margin-right:40vw
 
 }
 
 
 p {
   color: rgba(255, 255, 255, 0.488);
-  text-shadow:1px 1px 3px #fefefe, -10px 0px 5px #001affb0;
+  text-shadow:1px 1px 3px #fefefe, -7px 0px 5px #000000b0;
   font-size:1.5vw;
   /* font-style: italic; */
   line-height:1vw;
@@ -57,30 +58,32 @@ p {
 p:hover {
 
 /*  margin-left: -5px; */
-  text-shadow:1px 1px 5px #ffffff, 0px 0px 5px #ffffff, -10px 0px 5px #001aff;
+  text-shadow:1px 1px 5px #ffffff70, -3px 0px 4px #ffffff;
 /*  transform: rotate(180deg) scaleX(-1); */
 
 }
 
 p2 {
 
-  color: rgba(255, 255, 255, 0.731);
+  color: rgba(255, 255, 255, 0.543);
   font: size 3vw;
-  line-height: 3vw;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1vw;
   font-weight: 400;
   text-align: justify; 
+  text-shadow:1px 1px 5px #ffffff, 1px 1px 1px #ffffff,;
 }
 
 detail {
-  color: rgba(190, 24, 24, 0.33);
-  text-shadow:1px 1px 3px #ff00007c, 0px 0px 3px #ff0000;
+  color: rgba(255, 255, 255, 0);
+  text-shadow:1px 1px 3px #ffffff5b, 0px 0px 3px #ffffff2a;
   font-style: normal;
   font-size:smaller;
 }
 
 
-image {
-  max-width: 50%;
-  display: none;
-  position: fixed;
+img {
+  max-width: 50vw;
+  z-index: 999;
+  padding-right: 40vw;
 } 
